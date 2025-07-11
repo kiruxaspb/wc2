@@ -1,8 +1,10 @@
 {
-  "name": "wc2",
+  "name": "asi-chain-keys-generator",
   "version": "1.0.0",
-  "description": "REV blockchain wallet generator with cryptographic utilities",
-  "scripts": {},
+  "description": "ASI:Chain blockchain wallet and keys generator with cryptographic utilities",
+  "scripts": {
+    "generate": "npx ts-node walletGeneratorScript.ts"
+  },
   "keywords": [
     "blockchain",
     "wallet",
